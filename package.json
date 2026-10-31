@@ -1,0 +1,26 @@
+{
+  "name": "website-portofolio",
+  "version": "1.0.0",
+  "description": "Tugas Praktikum PWEB pake Tailwind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelhdi/website-portofolio.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rafaelhdi/website-portofolio/issues"
+  },
+  "homepage": "https://github.com/rafaelhdi/website-portofolio#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.5.1": true
+  }
+}
