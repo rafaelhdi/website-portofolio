@@ -8,20 +8,20 @@
 </head>
 
 <body class="bg-blue-800 text-blue-500">
-    <header class="z-10 sticky top-0 bg-blue-950 py-5"> <!-- header -->
+    <header class="z-10 sticky top-0 bg-blue-950 py-5 drop-shadow-lg"> <!-- header -->
             <nav class="w-9/12 flex flex-row mx-auto">
                 <div class="uppercase text-lg basis-1/4"> <!--Logo Nama-->
-                    <a href="#hero" class="hover:bg-blue-400">
-                        <span class="text-[#D4AF37] font-extrabold italic">Rafael</span>
-                        <span class="font-extralight text-gray-400 ">Hadi</span>
+                    <a href="#hero" class="group hover:bg-[#D4AF37] hover:rounded-lg hover:text-blue-950 transition-all duration-300 ease-in-out">
+                        <span class="text-[#D4AF37] group-hover:text-blue-950 transition-all duration-300 ease-in-out font-extrabold italic">Rafael</span>
+                        <span class="font-extralight">Hadi</span>
                     </a>
                 </div>
 
                 <div class="flex items-center justify-evenly basis-1/2"><!-- links -->
-                    <a href="#services" class="hover:bg-[#D4AF37] border rounded-lg px-2 py-1"><span>services</span></a>
-                    <a href="#portfolios" class="hover:bg-[#D4AF37] border rounded-lg px-2 py-1"><span>portfolios</span></a>
-                    <a href="#education" class="hover:bg-[#D4AF37] border rounded-lg px-2 py-1"><span>education</span></a>
-                    <a href="#contact" class="hover:bg-[#D4AF37] border rounded-lg px-2 py-1"><span>contact</span></a>
+                    <a href="#services" class="hover:bg-[#D4AF37] transition-colors duration-300 ease-in-out bg-blue-500 text-blue-950 border rounded-lg px-2 py-1"><span>services</span></a>
+                    <a href="#portfolios" class="hover:bg-[#D4AF37] transition-colors duration-300 ease-in-out bg-blue-500 text-blue-950 border rounded-lg px-2 py-1"><span>portfolios</span></a>
+                    <a href="#education" class="hover:bg-[#D4AF37] transition-colors duration-300 ease-in-out bg-blue-500 text-blue-950 border rounded-lg px-2 py-1"><span>education</span></a>
+                    <a href="#contact" class="hover:bg-[#D4AF37] transition-colors duration-300 ease-in-out bg-blue-500 text-blue-950 border rounded-lg px-2 py-1"><span>contact</span></a>
                 </div>
 
                 <div class="basis-1/4 flex justify-end"> <!-- nanti buat dark mode toggle -->
@@ -32,7 +32,7 @@
     </header>
     
     <main class="relative -top-20"> <!-- main content -->
-        <div id="hero" class="relative overflow-hidden bg-linear-45 from-blue-800 to-cyan-400 [-webkit-text-stroke:2px_black]"> <!-- hero section -->
+        <div id="hero" class="relative overflow-hidden bg-linear-45 from-blue-800 to-cyan-400"> <!-- hero section -->
             <!-- background grid polkadot -->
             <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(#01060f_1.5px,transparent_1.5px)] bg-size-[26px_26px] mask-[radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
             <!-- Layer Dekorasi Garis Kurva -->
@@ -47,26 +47,27 @@
                         <svg class="stroke-black stroke-2 h-5 w-5">
                             <line x1="0" y1="10px" x2="10px" y2="10px"/>
                         </svg>
-                        <h2 class="text-gray-300 uppercase text-sm font-extralight tracking-[.5em]">
+                        <h2 class="bg-blue-900 pl-2 p-1 border border-gray-400 rounded-lg text-gray-400 uppercase text-sm font-extralight tracking-[.5em]">
                             My Name Is
                         </h2>
                     </div>
-                    <h3 class="font-bold text-4xl text-white">
+                    <h3 class="font-bold text-4xl text-white mb-2">
                         <span class="text-[#D4AF37]">Rafael</span>
                         <span class="text-gray-400 font-extralight">Hadi.</span>
                     </h3>
-                    <p class="font-mono text-gray-400">Saya adalah seorang developer yang berfokus pada pembuatan aplikasi web yang menarik dan fungsional.
+                    <p class="bg-blue-900 border border-gray-400 rounded-lg font-mono text-gray-400 p-3">
+                        Saya adalah seorang developer yang berfokus pada pembuatan aplikasi web yang menarik dan fungsional.
                         I really-really like cats :D
                     </p>
                     <div class="flex flex-row mt-5 space-x-3"> <!-- social media -->
-                        <a href="https://instagram.com/rfael.hd" class="hover:bg-[#D4AF37]"><img class="w-6 h-6" src="img/Instagram.svg" alt="Logo Instagram"></a>
-                        <a href="https://github.com/rafaelhdi" class="hover:bg-[#D4AF37]"><img class="w-6 h-6" src="img/Github.svg" alt="Logo GitHub"></a>
-                        <a href="https://x.com/rfael_hd" class="hover:bg-[#D4AF37]"><img class="w-6 h-6" src="img/Twitter.svg" alt="Logo Twitter"></a>
-                        <a href="#hero" class="hover:bg-[#D4AF37]"><img class="w-6 h-6" src="img/Linkedin.svg" alt="Logo LinkedIn"></a>
+                        <a href="https://instagram.com/rfael.hd" class="hover:bg-[#D4AF37] transition-all duration-300 ease-in-out hover:scale-110 hover:rounded-lg"><img class="w-6 h-6" src="img/Instagram.svg" alt="Logo Instagram"></a>
+                        <a href="https://github.com/rafaelhdi" class="hover:bg-[#D4AF37] transition-all duration-300 ease-in-out hover:scale-110 hover:rounded-lg"><img class="w-6 h-6" src="img/Github.svg" alt="Logo GitHub"></a>
+                        <a href="https://x.com/rfael_hd" class="hover:bg-[#D4AF37] transition-all duration-300 ease-in-out hover:scale-110 hover:rounded-lg"><img class="w-6 h-6" src="img/Twitter.svg" alt="Logo Twitter"></a>
+                        <a href="#hero" class="hover:bg-[#D4AF37] transition-all duration-300 ease-in-out hover:scale-110 hover:rounded-lg"><img class="w-6 h-6" src="img/Linkedin.svg" alt="Logo LinkedIn"></a>
                     </div>
                 </div>
                 <div class="basis-1/2"> <!-- avatar -->
-                    <img class="mx-auto" src="img/raffles.jpg" alt="Foto Rafael Hadi">
+                    <img class="mx-auto transition-transform duration-300 ease-in-out hover:scale-110" src="img/raffles.jpg" alt="Foto Rafael Hadi">
                 </div>
             </div>
         </div>
@@ -206,20 +207,20 @@
                         </div>
                         <h3 class="text-3xl text-white">Education</h3>
                         <div class="flex flex-col gap-y-5 mt-10 pr-20"> <!-- links -->
-                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800" href="https://www.instagram.com/univ_jember/"><span>University of Jember</span> > </a>   
-                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800" href=""><span>SMAN 1 Wongsorejo</span> > </a>   
-                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800" href=""><span>SMPN 1 Wongsorejo</span> > </a>   
-                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800" href=""><span>SDN 1 Wongsorejo</span> > </a>   
+                            <a class="transition-all duration-300 ease-in-out bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800 hover:scale-105" href="https://www.instagram.com/univ_jember/"><span>University of Jember</span> > </a>   
+                            <a class="transition-all duration-300 ease-in-out bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800 hover:scale-105" href=""><span>SMAN 1 Wongsorejo</span> > </a>   
+                            <a class="transition-all duration-300 ease-in-out bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800 hover:scale-105" href=""><span>SMPN 1 Wongsorejo</span> > </a>   
+                            <a class="transition-all duration-300 ease-in-out bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800 hover:scale-105" href=""><span>SDN 1 Wongsorejo</span> > </a>   
                         </div>
                     </div>
                 </div>
 
                 <div class="basis-2/3 pl-20"> <!-- deskripsi -->
                     <a href="https://www.instagram.com/ukmlaos/">
-                        <h4 class="text-2xl font-bold text-blue-200 hover:bg-[#D4AF37] hover:text-gray-800">Public Relation Staff of LAOS Student Activity Unit</h4>
+                        <h4 class="text-2xl font-bold text-blue-200 transition-all duration-300 ease-in-out hover:bg-[#D4AF37] hover:text-gray-800 hover:pl-2 hover:rounded-lg hover:scale-105">Public Relation Staff of LAOS Student Activity Unit</h4>
                     </a>
                     <a href="https://www.instagram.com/fasilkomunej/">
-                        <h5 class="text-sm font-light hover:bg-[#D4AF37] hover:text-gray-800">Faculty of Computer Science, University of Jember, Jember, Indonesia</h5>
+                        <h5 class="text-sm font-light transition-all duration-300 ease-in-out hover:bg-[#D4AF37] hover:text-gray-800 hover:pl-2 hover:rounded-lg hover:scale-105">Faculty of Computer Science, University of Jember, Jember, Indonesia</h5>
                     </a>
                     <p class="mt-5 text-light text-blue-200">January 2026 - Present : 2nd Period</p>
                     <div class="mt-2">
@@ -266,7 +267,7 @@
                             <textarea class="bg-blue-100 rounded-md px-4 py-2 w-full focus:ring-blue-800" name="" id="" cols="30" rows="4"></textarea>
                         </div>
                         <div>
-                            <button class="hover:bg-blue-600 bg-blue-500 text-white font-semibold py-2 px-4 rounded-md w-full" type="submit">Send Email</button>
+                            <button class="transition-colors duration-300 ease-in-out hover:bg-blue-600 bg-blue-500 text-white font-semibold py-2 px-4 rounded-md w-full" type="submit">Send Email</button>
                         </div>
                     </form>
                 </div>
