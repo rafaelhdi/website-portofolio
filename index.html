@@ -18,10 +18,10 @@
                 </div>
 
                 <div class="flex items-center justify-evenly basis-1/2"><!-- links -->
-                    <a href="#services" class="hover:bg-blue-400 border rounded-lg px-2 py-1"><span>services</span></a>
-                    <a href="#portfolios" class="hover:bg-blue-400 border rounded-lg px-2 py-1"><span>portfolios</span></a>
-                    <a href="#education" class="hover:bg-blue-400 border rounded-lg px-2 py-1"><span>education</span></a>
-                    <a href="#contact" class="hover:bg-blue-400 border rounded-lg px-2 py-1"><span>contact</span></a>
+                    <a href="#services" class="hover:bg-[#D4AF37] border rounded-lg px-2 py-1"><span>services</span></a>
+                    <a href="#portfolios" class="hover:bg-[#D4AF37] border rounded-lg px-2 py-1"><span>portfolios</span></a>
+                    <a href="#education" class="hover:bg-[#D4AF37] border rounded-lg px-2 py-1"><span>education</span></a>
+                    <a href="#contact" class="hover:bg-[#D4AF37] border rounded-lg px-2 py-1"><span>contact</span></a>
                 </div>
 
                 <div class="basis-1/4 flex justify-end"> <!-- nanti buat dark mode toggle -->
@@ -32,29 +32,37 @@
     </header>
     
     <main class="relative -top-20"> <!-- main content -->
-        <div id="hero" class="bg-blue-800"> <!-- hero section -->
-            <div class="flex h-screen items-center mx-auto w-9/12">
+        <div id="hero" class="relative overflow-hidden bg-linear-45 from-blue-800 to-cyan-400 [-webkit-text-stroke:2px_black]"> <!-- hero section -->
+            <!-- background grid polkadot -->
+            <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(#01060f_1.5px,transparent_1.5px)] bg-size-[26px_26px] mask-[radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
+            <!-- Layer Dekorasi Garis Kurva -->
+            <svg class="pointer-events-none absolute inset-0 h-full w-full opacity-20" viewBox="0 0 1440 600" fill="none" xmlns="http://w3.org">
+                <path d="M-100 270C170 70 550 550 900 250C1250 -50 1400 300 1600 100" stroke="black" stroke-width="3" />
+                <path d="M-100 450C250 150 550 550 900 250C1250 -50 1400 300 1600 100" stroke="black" stroke-width="3" />
+                <path d="M-100 570C300 220 580 550 900 250C1250 -50 1400 300 1600 100" stroke="black" stroke-width="3" />
+            </svg>
+            <div class="relative flex h-screen items-center mx-auto w-9/12">
                 <div class="basis-1/2"> <!-- deskripsi -->
                     <div class="flex items-center">
-                        <svg class="stroke-blue-400 stroke-2 h-5 w-5">
+                        <svg class="stroke-black stroke-2 h-5 w-5">
                             <line x1="0" y1="10px" x2="10px" y2="10px"/>
                         </svg>
-                        <h2 class="uppercase text-sm font-extralight tracking-[.5em]">
+                        <h2 class="text-gray-300 uppercase text-sm font-extralight tracking-[.5em]">
                             My Name Is
                         </h2>
                     </div>
                     <h3 class="font-bold text-4xl text-white">
                         <span class="text-[#D4AF37]">Rafael</span>
-                        <span class="text-gray-400">Hadi.</span>
+                        <span class="text-gray-400 font-extralight">Hadi.</span>
                     </h3>
-                    <p class="font-light">Saya adalah seorang developer yang berfokus pada pembuatan aplikasi web yang menarik dan fungsional.
+                    <p class="font-mono text-gray-400">Saya adalah seorang developer yang berfokus pada pembuatan aplikasi web yang menarik dan fungsional.
                         I really-really like cats :D
                     </p>
                     <div class="flex flex-row mt-5 space-x-3"> <!-- social media -->
-                        <a href="https://instagram.com/rfael.hd" class="hover:bg-blue-400"><img class="w-6 h-6" src="img/Instagram.svg" alt="Logo Instagram"></a>
-                        <a href="https://github.com/rafaelhdi" class="hover:bg-blue-400"><img class="w-6 h-6" src="img/Github.svg" alt="Logo GitHub"></a>
-                        <a href="https://x.com/rfael_hd" class="hover:bg-blue-400"><img class="w-6 h-6" src="img/Twitter.svg" alt="Logo Twitter"></a>
-                        <a href="#hero" class="hover:bg-blue-400"><img class="w-6 h-6" src="img/Linkedin.svg" alt="Logo LinkedIn"></a>
+                        <a href="https://instagram.com/rfael.hd" class="hover:bg-[#D4AF37]"><img class="w-6 h-6" src="img/Instagram.svg" alt="Logo Instagram"></a>
+                        <a href="https://github.com/rafaelhdi" class="hover:bg-[#D4AF37]"><img class="w-6 h-6" src="img/Github.svg" alt="Logo GitHub"></a>
+                        <a href="https://x.com/rfael_hd" class="hover:bg-[#D4AF37]"><img class="w-6 h-6" src="img/Twitter.svg" alt="Logo Twitter"></a>
+                        <a href="#hero" class="hover:bg-[#D4AF37]"><img class="w-6 h-6" src="img/Linkedin.svg" alt="Logo LinkedIn"></a>
                     </div>
                 </div>
                 <div class="basis-1/2"> <!-- avatar -->
@@ -198,22 +206,22 @@
                         </div>
                         <h3 class="text-3xl text-white">Education</h3>
                         <div class="flex flex-col gap-y-5 mt-10 pr-20"> <!-- links -->
-                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-blue-200 hover:text-gray-800" href="https://www.instagram.com/univ_jember/"><span>University of Jember</span> > </a>   
-                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-blue-200 hover:text-gray-800" href=""><span>SMAN 1 Wongsorejo</span> > </a>   
-                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-blue-200 hover:text-gray-800" href=""><span>SMPN 1 Wongsorejo</span> > </a>   
-                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-blue-200 hover:text-gray-800" href=""><span>SDN 1 Wongsorejo</span> > </a>   
+                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800" href="https://www.instagram.com/univ_jember/"><span>University of Jember</span> > </a>   
+                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800" href=""><span>SMAN 1 Wongsorejo</span> > </a>   
+                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800" href=""><span>SMPN 1 Wongsorejo</span> > </a>   
+                            <a class="bg-white w-full p-4 rounded-lg flex flex-row justify-between hover:bg-[#D4AF37] hover:text-gray-800" href=""><span>SDN 1 Wongsorejo</span> > </a>   
                         </div>
                     </div>
                 </div>
 
                 <div class="basis-2/3 pl-20"> <!-- deskripsi -->
                     <a href="https://www.instagram.com/ukmlaos/">
-                        <h4 class="text-2xl font-bold text-blue-200 hover:bg-blue-200 hover:text-gray-800">Public Relation Staff of LAOS Student Activity Unit</h4>
+                        <h4 class="text-2xl font-bold text-blue-200 hover:bg-[#D4AF37] hover:text-gray-800">Public Relation Staff of LAOS Student Activity Unit</h4>
                     </a>
                     <a href="https://www.instagram.com/fasilkomunej/">
-                        <h5 class="text-sm font-light hover:bg-blue-200 hover:text-gray-800">Faculty of Computer Science, University of Jember, Jember, Indonesia</h5>
+                        <h5 class="text-sm font-light hover:bg-[#D4AF37] hover:text-gray-800">Faculty of Computer Science, University of Jember, Jember, Indonesia</h5>
                     </a>
-                    <p class="mt-5 text-light text-blue-200">January 2026 - Present : 1st Period</p>
+                    <p class="mt-5 text-light text-blue-200">January 2026 - Present : 2nd Period</p>
                     <div class="mt-2">
                         <span class="border-white border border-solid px-2 py-1 rounded-md text-sm font-mono">College Student</span>
                         <span class="border-white border border-solid px-2 py-1 rounded-md text-sm font-mono">Learning Web Development</span>
